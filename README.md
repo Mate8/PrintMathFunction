@@ -48,6 +48,6 @@
 	SetAxisColor(ColorX:String,ColorY:String) //ColorX:x轴颜色，ColorY:y轴颜色，若设置则覆盖，传null则跳过
 
 
-范例网站:[](http://129.211.188.25:8080/1.html)
+范例网站:http://129.211.188.25:8080/1.html
 
 意见邮箱:sdfsdvdac@qq.com
