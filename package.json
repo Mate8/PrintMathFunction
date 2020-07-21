@@ -1,0 +1,19 @@
+{
+  "name": "print-function",
+  "version": "1.0.0",
+  "description": "数学函数图像绘制辅助库",
+  "main": "PrintFunction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mate8/Visualization-function.git"
+  },
+  "author": "Qc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mate8/Visualization-function/issues"
+  },
+  "homepage": "https://github.com/Mate8/Visualization-function#readme"
+}
