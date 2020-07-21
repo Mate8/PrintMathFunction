@@ -1,5 +1,5 @@
 {
-  "name": "print-function",
+  "name": "print-math-function",
   "version": "1.0.0",
   "description": "数学函数图像绘制辅助库",
   "main": "PrintFunction.js",
