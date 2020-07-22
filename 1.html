@@ -114,23 +114,25 @@
 			})
 
 			fd.AnimationCallBack((id) => { //设置动画函数回调
-				if (id !== 8) {
-					//addFunction添加函数
-					fd.addFunction({
-						method: function(x) {
-							return 3 * x
-						},
-						animation: true,
-						color: 'orange',
-						tipColor: 'orange',
-						title: 'f(x)=3 * x -> 正比例函数',
-						id: 8
-					})
-					setTimeout(() => {
-						//通过ID移除函数
-						fd.removeFunction(8)
-					}, 4000)
-				}
+				setTimeout(()=>{
+					if (id !== 8) {
+						//addFunction添加函数
+						fd.addFunction({
+							method: function(x) {
+								return 3 * x
+							},
+							animation: true,
+							color: 'orange',
+							tipColor: 'orange',
+							title: 'f(x)=3 * x -> 正比例函数',
+							id: 8
+						})
+						setTimeout(() => {
+							//通过ID移除函数
+							fd.removeFunction(8)
+						}, 4000)
+					}
+				},4000)
 			})
 		</script>
 	</body>
